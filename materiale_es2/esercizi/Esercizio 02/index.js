@@ -1,7 +1,7 @@
 const express = require('express');
 const movieRouter = require('./src/routes/moviesRoutes');
 const index = express();
-const port = 3001;
+const port = 3000;
 index.use(express.json());
 index.use('/movies',movieRouter);
 
